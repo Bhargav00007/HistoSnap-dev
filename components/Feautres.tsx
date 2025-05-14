@@ -17,7 +17,7 @@ export default function FeatureCards() {
             <FaFileSignature className="text-8xl" />
           </div>
           <Link href="/Summarize">
-            <button className="mt-0 w-fit px-6 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition">
+            <button className="mt-0 cursor-pointer w-fit px-6 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition">
               Summarize
             </button>
           </Link>

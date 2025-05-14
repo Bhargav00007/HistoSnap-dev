@@ -30,12 +30,12 @@ export default function About() {
           HistoSnap is powered by <strong>Gemini AI</strong> (by Google), and
           continues to evolve with planned features like multi-language
           translation and smarter, more adaptive formatting options. Whether
-          you're in a busy clinic or working remotely, HistoSnap makes
+          you&apos;re in a busy clinic or working remotely, HistoSnap makes
           prescription digitization effortless.
         </p>
 
         <p className="italic text-sm text-neutral-200 mt-6">
-          "Taking care of your health is our top priority."
+          &quot;Taking care of your health is our top priority.&quot;
         </p>
       </div>
     </section>
