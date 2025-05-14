@@ -14,9 +14,11 @@ const Navbar = () => {
         </Link>
 
         <div className="flex items-center gap-4">
-          <button className="bg-black cursor-pointer text-white px-4 py-2 rounded-full hover:bg-black/90 transition text-sm">
-            About us
-          </button>
+          <Link href="/about">
+            <button className="bg-black cursor-pointer text-white px-4 py-2 rounded-full hover:bg-black/90 transition text-sm">
+              About us
+            </button>
+          </Link>
         </div>
       </div>
     </nav>

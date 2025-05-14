@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -11,9 +12,11 @@ export default function Hero() {
             Taking care of your health is our top priority.
           </h1>
           <div className="flex justify-center lg:justify-start">
-            <button className="px-6 py-3 bg-black text-white rounded-full cursor-pointer text-lg hover:bg-gray-800 transition">
-              About Us
-            </button>
+            <Link href="/about">
+              <button className="px-10 py-3 bg-black text-white rounded-full cursor-pointer text-lg hover:bg-gray-800 transition">
+                About Us
+              </button>
+            </Link>
           </div>
         </div>
 
